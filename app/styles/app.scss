@@ -1,0 +1,11 @@
+/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+@import './homepage';
+@import './product';
+
+body {
+  font-family: Montreal, sans-serif;
+  background-color: #222222;
+  margin: 0;
+  padding: 0;
+}
+
