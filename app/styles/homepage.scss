@@ -9,10 +9,11 @@
 }
 
 .title {
-  font-size: 7em;
+  font-size: 9em;
   text-align: left;
   justify-content: left;
-  color: #c73200;
+//   color: #c73200;
+  color: #004be1;   
   margin-top: 10px;
   padding-left: 40px;
   padding-top: 20px;
@@ -21,23 +22,25 @@
 }
 
 .subtitle {
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: left;
     justify-content: left;
-    color: #c73200;
-    padding-top: 160px;
+    color: #0042c7; 
+    padding-top: 180px;
     padding-left: 48px;
     position: fixed;
+    font-weight: lighter;
 }
 
 .brand {
-    font-size: 0.4em;
+    font-size: 0.3em;
     padding-left: 10px;
     font-weight: lighter;
 }
 
-.button-buynow {
-    padding: 16px 32px;
+.button-news {
+    // padding: 16px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -47,24 +50,54 @@
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: transparent; 
-    color: #c73200;
-    border: 2px solid #c73200;
+    color: #0042c7; 
+    border: 2px solid #0042c7; 
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 48px;
 
     &:hover {
-        background-color: #c73200;
-        background-color: #c73200;
-        color: white;
-        border: 2px solid #c73200;
+        background-color: #0042c7; 
+        background-color: #0042c7; 
+        color: #151515;
+        border: 2px solid #0042c7; 
       }
   }
-  
+ 
+  .button-about {
+    // padding: 16px 32px;
+    padding: 10px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montreal, sans-serif;
+    font-size: 1em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent; 
+    color: #0042c7; 
+    border: 2px solid #0042c7; 
+    position: fixed;
+    margin-top: 300px;
+    margin-left: 48px;
+
+    &:hover {
+        background-color: #0042c7; 
+        background-color: #0042c7; 
+        color: #151515;
+        border: 2px solid #0042c7; 
+      }
+  }
+   
+
 .cart-link {
     position: fixed;
     right: 40px;
     top: 80px;
     gap: 30px;
     // background-color: #f2f2f2;
-    color: #c73200;
+    color: #0042c7; 
     font-size: 27px;
     display: inline-flex;
     justify-content: center;
