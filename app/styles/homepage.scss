@@ -22,11 +22,11 @@
 }
 
 .subtitle {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: left;
     justify-content: left;
-    color: #0042c7; 
-    padding-top: 180px;
+    color: #004be1; 
+    padding-top: 185px;
     padding-left: 48px;
     position: fixed;
     font-weight: lighter;
@@ -36,6 +36,25 @@
     font-size: 0.3em;
     padding-left: 10px;
     font-weight: lighter;
+}
+
+.about-cube {
+    width: 470px;
+    height: 150px;
+    background-color: #004be1;
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+    opacity: 100%;
+}
+
+.about-text {
+    color: #222222;
+    font-size: 1em;
+    padding: 20px;  
+    text-align: center;
+    text-transform: uppercase;
+    text-justify: auto;
 }
 
 .button-news {
@@ -94,7 +113,7 @@
 .cart-link {
     position: fixed;
     right: 40px;
-    top: 80px;
+    top: 60px;
     gap: 30px;
     // background-color: #f2f2f2;
     color: #0042c7; 
