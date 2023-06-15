@@ -1,9 +1,16 @@
 {{page-title "höms"}}
 
 <div class="container-hero">
-   <h1 class="title">HÖMS<span class="brand">®</span></h1>
+    <motion.div
+  initial={{ y: -100, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 1, delay: 0.5 }}
+>
+  <h1 class="title">HÖMS<span class="brand">®</span></h1>
+</motion.div>
+   
    <div>
-       <h5 class="subtitle">Vibrant handmade ceramics for elegant homes.</h5>
+       {{!-- <h5 class="subtitle">Vibrant handmade <br> <span class="ceramics">ceramics </span> <br> for elegant homes.</h5> --}}
    </div>
 </div>
 
