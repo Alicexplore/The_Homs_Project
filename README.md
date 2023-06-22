@@ -1,56 +1,28 @@
-# first-ember-project
+# The_Famiglia_Project
+Handmade ceramics webiste / Ember.js Application 🟦
+<br />
+I am currently working on this project.
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## About this project
 
-## Prerequisites
+"The Höms Project" is an ember.js application for a website that selling ceramics,
+<br />
+I designed the project and I am now developing the front-end part, 
+<br />
+after that I will make the back-end, so it will be possible to add items to cart.
 
-You will need the following things properly installed on your computer.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
+## Languages & tools
 
-## Installation
+[![My Skills](https://skillicons.dev/icons?i=ember,javascript,html,sass,nodejs,vscode,github,git)](https://skillicons.dev)
 
-* `git clone <repository-url>` this repository
-* `cd first-ember-project`
-* `npm install`
+<br />
 
-## Running / Development
+## Preview
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details
 
-### Running Tests
+## Resources 
 
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint`
-* `npm run lint:fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://cli.emberjs.com/release/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+• https://unsplash.com/
