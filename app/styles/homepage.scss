@@ -199,13 +199,14 @@
 
 .button-display {
     opacity: 0;
-    font-size: 1.4em;
+    font-size: 1.45em;
     color: #0042c7; 
-    font-weight: 100;
+    font-weight: lighter;
     position: relative;
-    top: -150px;
+    top: -185px;
     animation: fadeIn 2s forwards;
     animation-delay: 9s;
+    margin-right: 25px;
     align-self: center;
   }
   
@@ -221,7 +222,7 @@
 .title-after {
     opacity: 0;
     display: relative;
-    margin-top: 250px;
+    margin-top: 190px;
     font-size: 13em;
     color: #0042c7; 
     animation: fadeIn 2s forwards;
@@ -327,27 +328,16 @@
 
 .second-title {
     font-size: 2em;
-    padding-top: 50px;
+    padding-top: 30px;
     color: #0042c7;
     text-align: center; 
     margin-right: 60px;
     top: 50px;
 }
-
-// .newproducts {
-//     font-size: 2em;
-//     color: #0042c7;
-//     padding: 12px 80px;
-//     font-weight: bold;
-//     border: 2px solid #0042c7;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//   }
  
 .discover-title {
     font-size: 1.2em;
-    padding-top: 80px;
+    padding-top: 70px;
     color: #0042c7;
     text-align: center;
     margin-right: 60px;
@@ -361,7 +351,7 @@
     text-align: justify;
     margin-right: 60px;
     text-justify: inter-word;
-    padding: 35px 90px 50px;
+    padding: 35px 100px 50px;
     text-align-last: center;
 }
  
