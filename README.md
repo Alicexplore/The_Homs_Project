@@ -1,5 +1,5 @@
 # The_Höms_Project
-Handmade ceramics website / Ember.js Application 🟦
+Handmade ceramics website / Ember.js Application 🐹
 <br />
 I am currently working on this project.
 
