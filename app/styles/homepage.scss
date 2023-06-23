@@ -1,3 +1,5 @@
+
+
 .container-hero {
     background-image: url(/assets/images/diana-light-3-6mITmMyGI-unsplash.jpg);
     width: 100%;
@@ -6,16 +8,6 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -30px;
-}
-
-.background-black {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 820px;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 0;
 }
 
 .container-item {
@@ -54,66 +46,15 @@
     text-align: center;
     text-transform: uppercase;
     text-justify: auto;
-}
-
-.button-news {
-    // padding: 16px 32px;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Montreal, sans-serif;
-    font-size: 1em;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: transparent; 
-    color: #0042c7; 
-    border: 2px solid #0042c7; 
-    position: fixed;
-    margin-top: 250px;
-    margin-left: 48px;
-
-    &:hover {
-        background-color: #0042c7; 
-        color: #151515;
-        border: 2px solid #0042c7; 
-      }
-  }
- 
-  .button-about {
-    // padding: 16px 32px;
-    padding: 10px 34px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Montreal, sans-serif;
-    font-size: 1em;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: transparent; 
-    color: #0042c7; 
-    border: 2px solid #0042c7; 
-    position: fixed;
-    margin-top: 300px;
-    margin-left: 48px;
-
-    &:hover {
-        background-color: #0042c7; 
-        background-color: #0042c7; 
-        color: #151515;
-        border: 2px solid #0042c7; 
-      }
-  }
-   
+} 
 
 .cart-link {
     position: absolute;
     right: 40px;
     top: 60px;
     gap: 30px;
-    color: #0042c7; 
+    // color: #0042c7;
+    color: #302a2d; 
     font-size: 27px;
     display: inline-flex;
     justify-content: center;
@@ -128,7 +69,8 @@
     position: absolute;
     display: flex;
     font-size: 2.3em;
-    color: #0042c7; 
+    // color: #0042c7;
+    color: #302a2d; 
     left: 40px;
     top: 30px;
     flex-direction: row;
@@ -138,13 +80,12 @@
     }
 }
 
-
-
 .logo-brand {
     position: absolute;
     display: flex;
     font-size: 0.7em;
-    color: #0042c7; 
+    // color: #0042c7;
+    color: #302a2d; 
     left: 162px;
     top: 79px;
     flex-direction: row;
@@ -166,7 +107,9 @@
     font-size: 13em;
     position: absolute;
     padding-top: 50px;
-    color: #0042c7;
+    color: #302a2d;
+    // color: #584d53;
+    // color: #0042c7;
     opacity: 0;
     transform: translateY(-100%);
     animation: revealAndFadeOut 6s;
@@ -192,21 +135,17 @@
     }
   }
 
-// .button-display {
-//     display: absolute;
-//     margin-right: 20px;
-// } 
-
-.button-display {
+.subtitle-home {
     opacity: 0;
-    font-size: 1.45em;
-    color: #0042c7; 
+    font-size: 1.2em;
+    // color: #0042c7;
+    color: #302a2d; 
     font-weight: lighter;
     position: relative;
-    top: -185px;
+    top: -150px;
+    right: 20px;
     animation: fadeIn 2s forwards;
     animation-delay: 9s;
-    margin-right: 25px;
     align-self: center;
   }
   
@@ -219,12 +158,14 @@
     }
   }
 
+
 .title-after {
     opacity: 0;
     display: relative;
-    margin-top: 190px;
+    margin-top: 240px;
     font-size: 13em;
-    color: #0042c7; 
+    // color: #0042c7; 
+    color: #302a2d;
     animation: fadeIn 2s forwards;
     animation-delay: 7s;
     align-self: center;
@@ -244,57 +185,10 @@
     padding-left: 10px;
     font-weight: lighter;
 }
-
-  .discover-button {
-    opacity: 0;
-    position: relative;
-    top: -150px;
-    left: 20px;
-    padding: 16px 120px;
-    background-color: #0042c7;
-    color: #fff;
-    border: 3px solid #0042c7;
-    font-size: 0.9em;
-    cursor: pointer;
-    animation: fadeIn 2s forwards;
-    animation-delay: 9s;
-    align-self: center;
-  }
   
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  .shop-button {
-    opacity: 0;
-    position: relative;
-    top: -150px;
-    right: 20px;
-    padding: 16px 120px;
-    border: 3px solid #0042c7;
-    background-color: transparent;
-    color: #0042c7;
-    font-weight: bold;
-    font-size: 0.9em;
-    cursor: pointer;
-    animation: fadeIn 2s forwards;
-    animation-delay: 9s;
-    align-self: center;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+.cards-container {
+    margin-left: 28px;
+}
   
 .container-about {
     height: 600px;
@@ -310,11 +204,13 @@
     height: 600px;
     width: 50%;
     background-color: #EFEFED;
+    align-self: center;
+    justify-items: center;
 }
 
 .first-title {
     font-size: 7em;
-    color: #0042c7;
+    color: #302a2d;
     text-align: right; 
     margin-right: 60px;
     top: 50px;
@@ -328,43 +224,88 @@
 
 .second-title {
     font-size: 2em;
-    padding-top: 30px;
-    color: #0042c7;
+    padding-top: 15px;
+    // color: #0042c7;
     text-align: center; 
     margin-right: 60px;
     top: 50px;
+    // color: #B6A8A1;
+    color: #302a2d;
 }
  
 .discover-title {
     font-size: 1.2em;
     padding-top: 70px;
-    color: #0042c7;
+    // color: #0042c7;
+    color: #302a2d;
     text-align: center;
     margin-right: 60px;
     font-weight: lighter;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
+}
+
+.line-discover {
+    position: relative;
+    height: 1px;
+    width: 200px;
+    // background-color: #0042c7;
+    background-color:#302a2d;
+    text-align: center;
+    margin: 0 auto;
+    right: 25px;
+    bottom: 50px;
+}
+
+.little-title {
+    color: #302a2d;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-right: 50px;
 }
 
 .description-homs {
     font-size: 1.2em;
-    color: #0042c7;
+    color: #302a2d;
     text-align: justify;
     margin-right: 60px;
     text-justify: inter-word;
-    padding: 35px 100px 50px;
+    padding: 10px 100px 50px;
     text-align-last: center;
 }
  
 .ourstory-button {
     position: absolute;
     padding: 16px 44px;
-    border: 3px solid #0042c7;
-    background-color: #0042c7;
+    border: 3px solid #302a2d;
+    background-color: #302a2d;
     color: #fff;
     font-weight: bold;
     font-size: 0.9em;
     cursor: pointer;
     align-self: center;
+    justify-items: center;
+    margin-left: 240px;
+}
+
+.newceramics-title {
+    font-size: 1.2em;
+    padding-top: 100px;
+    // color: #0042c7;
+    color: #302a2d;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+.newceramics-line {
+    position: relative;
+    height: 1px;
+    width: 250px;
+    background-color:#302a2d;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 25px;
 }
  
  .more-button-container {
@@ -376,17 +317,18 @@
 
  .more-button {
     padding: 16px 44px;
-    border: 3px solid #0042c7;
-    background-color: #0042c7;
+    border: 3px solid #302a2d;
+    background-color: #302a2d;
     color: #fff;
     font-weight: bold;
     font-size: 0.9em;
     cursor: pointer;
+    margin-bottom: 60px;
  }
 
 .footer-container {
     height: 300px;
-    background-color: #0042c7;
+    background-color: #302a2d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -395,7 +337,7 @@
 .flex-container-footer {
     display: flex;
     align-items: center;
-    gap: 130px;
+    gap: 100px;
     color: #fff;
 }
 
@@ -403,11 +345,16 @@ ul {
     list-style-type: none;
 }
 
+li {
+    margin: 10px;
+}
+
 
 .footer-title {
     font-size: 5em;
+    text-align: left;
     font-weight: bold;
-    margin-left: 30px;
+    padding-left: 40px;
 }
 
 .footer-title-brand {
@@ -426,12 +373,16 @@ ul {
 .signature {
     font-size: 0.8em;
     font-weight: lighter;
-    color: #0042c7;
+    color: #302a2d;
     text-align: center;
     display: flex;
 }
 
-
+.logo-social {
+    font-size: 2em;
+    margin-right: 40px;
+    text-align: left;
+}
   
   
   
