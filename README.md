@@ -19,7 +19,7 @@ after that I will make the back-end, so it will be possible to add items to cart
 
 ## Preview
 
-<img width="1440" alt="Capture d’écran 2023-06-21 à 23 14 05" src="https://github.com/Alicexplore/the_homs_project/assets/102388803/c3370947-3a0d-4923-9718-a649026f1fde">
+<img width="1440" alt="Capture d’écran 2023-06-21 à 23 14 05" src="https://github.com/Alicexplore/the_homs_project/assets/102388803/4f076735-d66c-4d14-a66f-e376a9e49bc1">
 
 ## Resources 
 
