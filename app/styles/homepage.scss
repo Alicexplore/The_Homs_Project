@@ -29,16 +29,6 @@
     font-weight: lighter;
 }
 
-.about-cube {
-    width: 470px;
-    height: 150px;
-    background-color: #004be1;
-    position: absolute;
-    bottom: -45px;
-    right: 0;
-    opacity: 100%;
-}
-
 .about-text {
     color: #222222;
     font-size: 1em;
@@ -191,7 +181,7 @@
 }
   
 .container-about {
-    height: 600px;
+    height: 800px;
     display: flex;
 }
 
@@ -201,47 +191,35 @@
 }
 
 .about-section {
-    height: 600px;
+    height: 800px;
     width: 50%;
-    background-color: #EFEFED;
+    padding-left: 70px;
+    background-color: #302a2d;
+    // background-color: #EFEFED;
     align-self: center;
     justify-items: center;
 }
 
-.first-title {
-    font-size: 7em;
-    color: #302a2d;
-    text-align: right; 
-    margin-right: 60px;
-    top: 50px;
-}
-
-.first-title-brand {
-    font-size: 1em;
-    color: #0042c7;
-    top: 50px;
-}
-
 .second-title {
     font-size: 2em;
-    padding-top: 15px;
+    padding-top: 30px;
     // color: #0042c7;
     text-align: center; 
     margin-right: 60px;
     top: 50px;
     // color: #B6A8A1;
-    color: #302a2d;
+    color: #EFEFED;
 }
  
 .discover-title {
     font-size: 1.2em;
-    padding-top: 70px;
+    padding-top: 95px;
     // color: #0042c7;
-    color: #302a2d;
+    color: #EFEFED;
     text-align: center;
     margin-right: 60px;
     font-weight: lighter;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 .line-discover {
@@ -249,40 +227,34 @@
     height: 1px;
     width: 200px;
     // background-color: #0042c7;
-    background-color:#302a2d;
+    background-color:#EFEFED;
     text-align: center;
     margin: 0 auto;
     right: 25px;
     bottom: 50px;
 }
 
-.little-title {
-    color: #302a2d;
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold;
-    margin-right: 50px;
-}
-
 .description-homs {
     font-size: 1.2em;
-    color: #302a2d;
+    color: #EFEFED;
     text-align: justify;
     margin-right: 60px;
+    font-family: 'Red Hat Text', sans-serif;
     text-justify: inter-word;
-    padding: 10px 100px 50px;
+    padding: 10px 90px 50px;
     text-align-last: center;
 }
  
 .ourstory-button {
     position: absolute;
     padding: 16px 44px;
-    border: 3px solid #302a2d;
-    background-color: #302a2d;
-    color: #fff;
+    border: 3px solid #EFEFED;
+    background-color: #EFEFED;
+    color: #302a2d;
     font-weight: bold;
     font-size: 0.9em;
     cursor: pointer;
+    margin-top: 20px;
     align-self: center;
     justify-items: center;
     margin-left: 240px;
