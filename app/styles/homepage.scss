@@ -199,17 +199,6 @@
     align-self: center;
     justify-items: center;
 }
-
-.second-title {
-    font-size: 2em;
-    padding-top: 30px;
-    // color: #0042c7;
-    text-align: center; 
-    margin-right: 60px;
-    top: 50px;
-    // color: #B6A8A1;
-    color: #EFEFED;
-}
  
 .discover-title {
     font-size: 1.2em;
@@ -234,6 +223,17 @@
     bottom: 50px;
 }
 
+.second-title {
+    font-size: 2em;
+    padding-top: 40px;
+    // color: #0042c7;
+    text-align: center; 
+    margin-right: 60px;
+    top: 50px;
+    // color: #B6A8A1;
+    color: #EFEFED;
+}
+
 .description-homs {
     font-size: 1.2em;
     color: #EFEFED;
@@ -241,7 +241,7 @@
     margin-right: 60px;
     font-family: 'Red Hat Text', sans-serif;
     text-justify: inter-word;
-    padding: 10px 90px 50px;
+    padding: 10px 70px 50px;
     text-align-last: center;
 }
  
@@ -257,7 +257,7 @@
     margin-top: 20px;
     align-self: center;
     justify-items: center;
-    margin-left: 240px;
+    margin-left: 220px;
 }
 
 .newceramics-title {
@@ -299,7 +299,7 @@
  }
 
 .footer-container {
-    height: 300px;
+    height: 400px;
     background-color: #302a2d;
     display: flex;
     align-items: center;
@@ -351,7 +351,7 @@ li {
 }
 
 .logo-social {
-    font-size: 2em;
+    font-size: 1.8em;
     margin-right: 40px;
     text-align: left;
 }
