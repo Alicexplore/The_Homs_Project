@@ -110,7 +110,17 @@
 
 .title-product {
     top: 0;
-    left: 0;
-    
+    left: 0;    
+}
+
+.new-card {
+    position: absolute;
+    top: 80px;
+    color: #fff;
+    padding: 8px 10px;
+    background-color: #0042c7;
+    font-size: 0.8em;
+    width: 50px;
+    text-align: center;
 }
 
