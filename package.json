@@ -77,8 +77,5 @@
   },
   "ember": {
     "edition": "octane"
-  },
-  "dependencies": {
-    "framer-motion": "^10.12.16"
   }
 }
