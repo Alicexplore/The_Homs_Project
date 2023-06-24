@@ -106,13 +106,13 @@
 }
 
 .item-details-page {
+    display: flex;
     height: 300px;
+    width: 400px;
 }
 
-
-.title-product {
-    top: 0;
-    left: 0;    
+.space-top {
+    padding-top: 150px;
 }
 
 .new-card {
