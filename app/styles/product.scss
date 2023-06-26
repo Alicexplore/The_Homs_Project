@@ -109,6 +109,11 @@
     display: flex;
     width: 25%;
     margin-left: 20%;
+    margin-top: 5%;
+    padding: 44px 32px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .space-top {
@@ -125,4 +130,12 @@
     width: 50px;
     text-align: center;
 }
+
+.container-info-product {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
 
