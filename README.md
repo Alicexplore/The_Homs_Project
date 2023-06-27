@@ -15,7 +15,7 @@ after that I will make the back-end, so it will be possible to add items to cart
 
 [![My Skills](https://skillicons.dev/icons?i=ember,javascript,html,sass,nodejs,vscode,github,git)](https://skillicons.dev)
 
-<br />
+
 
 ## Preview
 
