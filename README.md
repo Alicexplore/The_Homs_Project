@@ -7,9 +7,9 @@ I am currently working on this project.
 
 "The Höms Project" is an ember.js application for a website that selling ceramics,
 <br />
-I designed the project and I am now developing the front-end part, 
+I designed the project and I am now developing the front-end, 
 <br />
-after that I will make the back-end, so it will be possible to add items to cart.
+after that I will work on the back-end, so it will be possible to add items to cart and checkout.
 
 ## Languages & tools
 
