@@ -154,10 +154,17 @@
 .button-add-cart {
     background-color:#302a2d;
     color: #f2f2f2;
-    padding: 15px 40px;
+    padding: 13px 40px;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: 1s;
+    // font-family: 'Red Hat Text', sans-serif;
     
     &:hover {
         text-decoration: none;
+        background-color:white;
+        transition: 1s;
+        color: #302a2d;
     }
 }
 
