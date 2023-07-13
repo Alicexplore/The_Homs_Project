@@ -121,6 +121,8 @@
 }
 
 .new-card-detail {
+    position: absolute;
+    margin-top: 130px;
     color: #fff;
     padding: 8px 10px;
     background-color:#302a2d;
@@ -160,7 +162,16 @@
 }
 
 .title-detail {
-    font-size: 3.5em;
+    font-size: 4em;
+    text-align: left;
+    
+}
+
+.price-item {
+    position: absolute;
+    margin-top: 420px;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .button-add-cart {
@@ -169,6 +180,7 @@
     padding: 8px 40px;
     transition: 1s;
     text-align: center;
+    margin-top: 120px;
     // font-family: 'Red Hat Text', sans-serif;
     
     &:hover {
