@@ -155,7 +155,7 @@
     text-align: justify;
     // font-family: 'Red Hat Text', sans-serif;
     text-justify: inter-word;
-    text-align-last: left;
+    // text-align-last: left;
     // padding: 44px 72px ;
 }
 
@@ -166,9 +166,9 @@
 .button-add-cart {
     background-color:#302a2d;
     color: #f2f2f2;
-    padding: 13px 40px;
-    
+    padding: 8px 40px;
     transition: 1s;
+    text-align: center;
     // font-family: 'Red Hat Text', sans-serif;
     
     &:hover {
@@ -182,7 +182,6 @@
 .button-add-cart-text {
     font-size: 0.9em;
     font-weight: bold;
-    left: 300px;
 }
 
 
